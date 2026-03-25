@@ -5,7 +5,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from google import genai
 
 # 🔑 Replace with your Gemini API key
-client = genai.Client(api_key="AIzaSyAsBNowoplgJjOBaiz7iw4VlSkXW-tGtjg")
+client = genai.Client(api_key="API_key")
 
 
 def create_qa_chain(pdf_path):
